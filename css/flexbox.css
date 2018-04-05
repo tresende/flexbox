@@ -76,6 +76,7 @@
 
 .videoSobre-video {
     flex-grow: 1;
+    flex-shrink: 2;
 }
 
 /* mobile */
