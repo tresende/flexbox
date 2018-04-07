@@ -1,8 +1,8 @@
 .flexContainer {
     display: flex;
     /*justify-content: space-around;*/
-    align-items: center;
-    flex-direction: column;
+    /* align-items: center; */
+    /* flex-direction: column; */
 }
 
 .flexContainer:last-child {
@@ -21,8 +21,6 @@ div {
 
 div:nth-child(1) {
     background-color: red;
-    height: 80px;
-    width: 80px;
 }
 
 div:nth-child(2) {
@@ -35,4 +33,16 @@ div:nth-child(3) {
 
 div:nth-child(4) {
     background-color: yellow;
+}
+
+.flexItem {
+    flex: 1 1; /*grwo e shrink*/
+    /* flex-grow: 2; */
+    /* flex-shrink: 1; */
+    /* flex-basis: 25%; */
+}
+
+.primeiro {
+    /* flex-grow: 3; */
+    /* flex-shrink: 2; */
 }
